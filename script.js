@@ -35,14 +35,14 @@ function displayState() {
 var questions = [];
 
 function displayQuestion() {
-
     var question = questions[currentQuestionNumber]
+    var answer;
 
     questionsEl.textContent = question.text;
 
-    var answer;
-
-    
+    for (var i = answersEl.children.length - 1; i >= 0; i--) {
+        answersEl.removeChild(answersEl.childNodes[i]);
+    }
 
     for (var i = 0; i < question.answers.length; i++) {
         answer = document.createElement("li");
@@ -55,36 +55,36 @@ function displayQuestion() {
 function setupQuestions() {
 
     var question = {
-        text: "What color is the sky?",
-        answers: ["red","orange","blue"],
-        actualAnswer: 2
+        text: "Where do you insert Javascript into an HTML document?",
+        answers: ["Bottom","Middle","Top", "You don't"],
+        actualAnswer: 0
     };
     questions.push(question);
 
     question = {
-        text: "What size is a buidling",
-        answers: ["small","medium","large"],
-        actualAnswer: 2
+        text: "How can one write out hello world? in JavaScript?",
+        answers: ["console.log(hello world!)","document.write(hello, world!)","alert(hello, world!)", "all of the above"],
+        actualAnswer: 3
     };
     questions.push(question);
 
     question = {
-        text: "Is this working?",
-        answers: ["idk","maybe","certainly"],
-        actualAnswer: 2
+        text: "How do you write comments in Javascript?",
+        answers: ["idk"," // ","/ /", "* *"],
+        actualAnswer: 1
     };
     questions.push(question);
 
     question = {
-        text: "Why can't I think of any questions?",
-        answers: ["multi-tasking","difficult concept","new subject"],
-        actualAnswer: 2
+        text: "What is the name of the program we use to run console commands?",
+        answers: ["Git","Node","OS", "Linux"],
+        actualAnswer: 0
     };
     questions.push(question);
 
     question = {
-        text: "Is cs hard?",
-        answers: ["Yes","Very much","Of course"],
+        text: "What do we always name our HTML files?",
+        answers: ["script.html","style.html","index.html", "whatever name you prefer"],
         actualAnswer: 2
     };
     questions.push(question);
