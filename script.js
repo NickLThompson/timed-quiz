@@ -50,7 +50,10 @@ function displayQuestion() {
         answersEl.appendChild(answer);
     }
     
+    
+
 }
+
 
 function setupQuestions() {
 
