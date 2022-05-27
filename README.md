@@ -32,9 +32,9 @@ They are pretty simple and stuff that all of us would know.
 
 ## Resources
 
-[Live Site](https://nicklthompson.github.io/password-randomizer/)
+[Live Site](https://nicklthompson.github.io/timed-quiz/)
 
-[Repository](https://github.com/NickLThompson/password-randomizer)
+[Repository](https://github.com/NickLThompson/timed-quiz)
 
 ## Status
 
