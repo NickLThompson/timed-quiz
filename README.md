@@ -42,10 +42,4 @@ The status of this project is decent but could definitely use some work.
 
 I feel pretty confident about a lot of it; My main concerns are the lack of 
 
-localStorage implementation, the actual high score screen itself,
-
-The high scores and initals being on the start screen really bothers me, 
-
-but I couldn't figure out why it was happening in time, so I had to leave it.
-
-I'm still happy overall with the outcome, but I wish I had just a bit more time.
+localStorage implementation but I'm still happy overall with the outcome. 

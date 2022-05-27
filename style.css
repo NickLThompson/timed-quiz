@@ -13,6 +13,7 @@ body {
 }
 
 #highscores{
+    text-align: center;
     font-size: 50px;
 }
 
@@ -47,4 +48,9 @@ button {
 
 #text {
     text-align: center;
+}
+
+#savedInitials {
+    text-align: center;
+    font-size: 30px;
 }
