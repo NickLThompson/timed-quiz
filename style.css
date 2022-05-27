@@ -12,6 +12,10 @@ body {
     font-size: 35px;
 }
 
+#highscores{
+    font-size: 50px;
+}
+
 #start p {
     text-align: center;
     font-size: 20px

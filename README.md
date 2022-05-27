@@ -4,33 +4,31 @@
 - [Description](#description)
 - [Visuals](#visuals)
 - [Resources](#resources)
+- [Status](#status)
 
 ## Description
 
-This is a coding quiz based on 5 different coding
+This is a coding quiz based on 5 different coding related in one way or another to coding.
 
-related in one way or another to coding. It consists
+It consists of a start screen, 5 multiple choice coding related questions, and an end screen. 
 
-of a start screen, 5 multiple choice coding related
+Included is a timer counting down how long it takes to complete the quiz, a score showing your 
 
-questions, and an end screen. Included is a timer 
-
-counting down how long it takes to complete the quiz, 
-
-and an area at the end giving you a place to put your
-
-initals.
+final score, and a place to sign your initials.
 
 ## Usage
 
-The usage of this is to be able to take a very short 
-
-quiz that involves a couple of coding related questions.
+The usage of this is to be able to take a very short quiz involving coding questions. 
 
 They are pretty simple and stuff that all of us would know.
 
 ## Visuals
-(https://gyazo.com/674a080f73e365f39e511468372db034)
+### Start, Question #1, End, and High Scores
+(https://i.gyazo.com/51ef08876b6abd7a8ac204cc73ae20b9.png)
+(https://i.gyazo.com/0cb3b365e240d7a49764c395534d2e3a.png)
+(https://i.gyazo.com/1dbe0c3305e677b9f2c947fcfeacfca4.png)
+(https://i.gyazo.com/6fc510688aec14d282931a9149d504fc.png)
+
 
 ## Resources
 
@@ -40,22 +38,14 @@ They are pretty simple and stuff that all of us would know.
 
 ## Status
 
-The status of this project is, decent but could
+The status of this project is decent but could definitely use some work. 
 
-definitely use some work. I feel pretty confident about 
+I feel pretty confident about a lot of it; My main concerns are the lack of 
 
-just about all of it, except for the lack of 
+localStorage implementation, the actual high score screen itself,
 
-localStorage implementation, and overall 
+The high scores and initals being on the start screen really bothers me, 
 
-cleanliness. The high scores and initals being on
+but I couldn't figure out why it was happening in time, so I had to leave it.
 
-the start screen really bothers me, but I couldn't
-
-figure out why it was happening and with time 
-
-constraints, I had to leave it. I'm still overall 
-
-happy with the outcome, but I wish I had just a bit
-
-more time to work with this.
+I'm still happy overall with the outcome, but I wish I had just a bit more time.

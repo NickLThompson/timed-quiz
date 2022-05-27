@@ -90,7 +90,7 @@ function setupQuestions() {
 
     question = {
         text: "How do you write comments in Javascript?",
-        answers: ["idk"," // ","/ /", "* *"],
+        answers: ["I'm not sure"," // ","/ /", "* *"],
         actualAnswer: 1
     };
     questions.push(question);
