@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,14 @@
     <title>Code Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section id="start">
-        <h1>Start Quiz</h1>
+        <h1>Coding Quiz!</h1>
+        <p>You will have 30 seconds <br>
+            to complete this simple quiz. <br>
+            Good Luck!
+        </p>
         <button>Begin</button>
     </section>
     <section id="quiz">
@@ -17,12 +23,20 @@
         <div>
             <ol id="answers"></ol>
         </div>
+        <div id="timer">
+            Time Remaining:<span id="clock"> 60 </span>
     </section>
     <section id="end">
-        <h2>Enter Initials</h2>
-        <input type="text">
-        <button>Submit</button>
+        <h3>Enter Initials</h3>
+        <p id="finalscore"></p>
+        <input id="text">
+        <button id="submit">Submit</button>
     </section>
+    <table id="highscores">
+        <h4>High Scores</h4>
+        <span id="savedInitials">Initials</span>
+    </table>
     <script src="./script.js"></script>
 </body>
+
 </html>
