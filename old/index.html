@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="start">
+        <h1>Coding Quiz!</h1>
+        <p>You will have 30 seconds <br>
+            to complete this simple quiz. <br>
+            Good Luck!
+        </p>
+        <button>Begin</button>
+    </section>
+    <section id="quiz">
+        <h2 id="question">Questions</h2>
+        <div>
+            <ol id="answers"></ol>
+        </div>
+        <div id="timer">
+            Time Remaining:<span id="clock"> 60 </span>
+    </section>
+    <section id="end">
+        <h3>Enter Initials</h3>
+        <p id="finalscore"></p>
+        <input id="text">
+        <button id="submit">Submit</button>
+    </section>
+    <section id="highscores">
+        <h4>High Scores</h4>
+        <span id="savedInitials">Initials</span>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
