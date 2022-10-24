@@ -7,22 +7,19 @@ body {
 }
 
 /* start area */
-#start {
-  text-align: center;
-}
-
-#start h1 {
+#quizTitle {
   padding-top: 80px;
   font-size: 32px;
 }
 
-#start p {
+#quizExplain {
   font-size: 24px;
-  padding-bottom: 10px;
+  padding: 21px 0px 25px 0px;
 }
 
 /* view high scores */
-#start h4 {
+#highScores {
+  padding-top: 20px;
   padding-left: 20px;
   color: rgb(205, 1, 205)
 }
