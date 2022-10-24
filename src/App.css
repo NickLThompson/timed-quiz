@@ -1,0 +1,46 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+/* start area */
+#start {
+  text-align: center;
+}
+
+#start h1 {
+  padding-top: 80px;
+  font-size: 32px;
+}
+
+#start p {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+/* view high scores */
+#start h4 {
+  padding-left: 20px;
+  color: rgb(205, 1, 205)
+}
+
+/* start quiz button */
+#startQuiz {
+  padding: 7px 20px 9px 20px;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+  background-color: purple;
+}
+
+#startQuiz:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(205, 1, 205);
+  cursor: pointer;
+}
+/* start area */
+
+
