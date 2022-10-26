@@ -36,3 +36,11 @@ const App = () => {
 }
 
 export default App;
+
+
+// page currently prints the Home screen twice due to lines 32 and 33, clicking the 1st button changes the 2nd instance to the question, like its supposed to
+// taking out line 32 only renders the home screen but the button doesn't work due to props not being passed
+// taking out line 33 makes the button not do anything at all, no error messages in the console
+
+// TODO: 
+// render the home page by default and make button click to change the right instance of the home page
