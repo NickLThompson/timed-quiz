@@ -29,7 +29,10 @@ const App = () => {
     // home page
     return (
         <div>
-            <Home currentPage={currentPage} setCurrentPage={setCurrentPage}/>
+            {/* change this to see whichever page until I can get the onClick down correctly*/}
+            <QuestionOne/>
+            {/* <Home currentPage={currentPage} setCurrentPage={setCurrentPage}/>
+            {renderPage()} */}
         </div>
     );
 }

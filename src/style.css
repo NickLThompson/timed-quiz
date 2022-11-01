@@ -31,14 +31,48 @@ body {
   border-radius: 8px;
   font-size: 24px;
   color: white;
-  background-color: purple;
+  background-color: rgb(50, 0, 120);
 }
 
 #startQuiz:hover {
   transition-duration: 0.4s;
-  background-color: rgb(205, 1, 205);
+  background-color: rgb(106, 0, 255);
   cursor: pointer;
 }
 /* start area */
 
+/* question styling */
+#questionTitle {
+  padding-top: 80px;
+  margin-top: 26px;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
 
+#questionSection {
+  width: 40%;
+  margin: 0 auto;
+}
+
+#questionLine {
+  margin-top: 10px;
+}
+
+#correct {
+  font-size: 32px;
+}
+
+/* this is the answers section */
+#answer {
+  padding: 7px 20px 9px 20px;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(50, 0, 120);
+}
+
+#answer:hover {
+  transition-duration: 0.4s;
+  background-color: rgb(106, 0, 255);
+  cursor: pointer;
+}

@@ -3,24 +3,26 @@ import React from 'react'
 const QuestionOne = () => {
 
     return (
-        <div>
-            <h1>Question Page</h1>
-            <p>
-                Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-                Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-                dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-                sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-                sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-                vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-                libero. Class aptent taciti sociosqu ad litora torquent per conubia
-                nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-                lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-                in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-                bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-                est ligula suscipit velit, sed bibendum turpis dui in sapien.
-            </p>
-        </div>
+        <section className="section" id="start">
+            <div className="container-fluid text-center">
+                <div className="row row-cols-2">
+                    <div className="col text-start" id="highScores">View High Scores</div>
+                    <div className="col text-end">Time</div>
+                </div>
+                {/* this section is what contains the question + buttons + footer */}
+                <div className="section text-start" id="questionSection">
+                    <div className="col align-self-center" id="questionTitle"><strong>Arrays in JavaScript can be used to store <br></br>__________.</strong></div>
+                    <div className="btn-group-vertical gap-2 col-5 mx-auto" role="group" aria-label="Question answers">
+                        <button type="button" className="btn text-start" id="answer">1. Numbers and strings</button>
+                        <button type="button" className="btn text-start" id="answer">2. Other arrays</button>
+                        <button type="button" className="btn text-start" id="answer">3. Booleans</button>
+                        <button type="button" className="btn text-start" id="answer">4. All of the above</button>
+                    </div>
+                    <div className="divisionLine text-muted" id="questionLine">______________________________________________________________________________________________</div>
+                    <div className="correct fst-italic text-muted" id="correct">Correct!</div>
+                </div>
+            </div>
+        </section>
     )
 }
 
