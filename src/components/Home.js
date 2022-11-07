@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Home = ({ currentPage, setCurrentPage }) => {
-console.log(currentPage)
+const Home = ({ setCurrentPage }) => {
 
   return (
     <section className="section" id="start">
@@ -15,6 +14,7 @@ console.log(currentPage)
                     Keep in mind that incorrect answers will penalize your score/time <br></br>
                     by ten seconds</div>
                 <button
+                    href="#home"
                     type="button"
                     onClick={() => setCurrentPage("QuestionOne")}
                     id="startQuiz">Start Quiz

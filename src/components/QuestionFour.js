@@ -11,12 +11,12 @@ const QuestionOne = () => {
                 </div>
                 {/* this section is what contains the question + buttons + footer */}
                 <div className="section text-start" id="questionSection">
-                    <div className="col align-self-center" id="questionTitle"><strong>Commonly used data types DO Not Include:</strong></div>
+                    <div className="col align-self-center" id="questionTitle"><strong>String values must be enclosed within __________ <br></br> when being assigned to variables</strong></div>
                     <div className="btn-group-vertical gap-2 col-5 mx-auto" role="group" aria-label="Question answers">
-                        <button type="button" className="btn text-start" id="answer">1. Strings</button>
-                        <button type="button" className="btn text-start" id="answer">2. Booleans</button>
-                        <button type="button" className="btn text-start" id="answer">3. Alerts</button>
-                        <button type="button" className="btn text-start" id="answer">4. Numbers</button>
+                        <button type="button" className="btn text-start" id="answer">1. Commas</button>
+                        <button type="button" className="btn text-start" id="answer">2. Curly brackets</button>
+                        <button type="button" className="btn text-start" id="answer">3. Quotes</button>
+                        <button type="button" className="btn text-start" id="answer">4. Parenthesis</button>
                     </div>
                     <div className="divisionLine text-muted" id="questionLine">______________________________________________________________________________________________</div>
                     <div className="correct fst-italic text-muted" id="correct">Correct!</div>

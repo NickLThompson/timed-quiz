@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 import "./style.css";
 import Home from "./components/Home";
 import QuestionOne from './components/QuestionOne';
+import QuestionTwo from './components/QuestionTwo';
+import QuestionThree from './components/QuestionThree';
+import QuestionFour from './components/QuestionFour';
+import QuestionFive from './components/QuestionFive';
 import End from "./components/End";
 import HighScores from "./components/HighScores";
 
@@ -30,7 +34,7 @@ const App = () => {
     return (
         <div>
             {/* change this to see whichever page until I can get the onClick down correctly*/}
-            <QuestionOne/>
+            <Home/>
             {/* <Home currentPage={currentPage} setCurrentPage={setCurrentPage}/>
             {renderPage()} */}
         </div>

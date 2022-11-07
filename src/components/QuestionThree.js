@@ -11,12 +11,12 @@ const QuestionOne = () => {
                 </div>
                 {/* this section is what contains the question + buttons + footer */}
                 <div className="section text-start" id="questionSection">
-                    <div className="col align-self-center" id="questionTitle"><strong>Commonly used data types DO Not Include:</strong></div>
+                    <div className="col align-self-center" id="questionTitle"><strong>Arrays in JavaScript can be used to store <br></br>__________.</strong></div>
                     <div className="btn-group-vertical gap-2 col-5 mx-auto" role="group" aria-label="Question answers">
-                        <button type="button" className="btn text-start" id="answer">1. Strings</button>
-                        <button type="button" className="btn text-start" id="answer">2. Booleans</button>
-                        <button type="button" className="btn text-start" id="answer">3. Alerts</button>
-                        <button type="button" className="btn text-start" id="answer">4. Numbers</button>
+                        <button type="button" className="btn text-start" id="answer">1. Numbers and strings</button>
+                        <button type="button" className="btn text-start" id="answer">2. Other arrays</button>
+                        <button type="button" className="btn text-start" id="answer">3. Booleans</button>
+                        <button type="button" className="btn text-start" id="answer">4. All of the above</button>
                     </div>
                     <div className="divisionLine text-muted" id="questionLine">______________________________________________________________________________________________</div>
                     <div className="correct fst-italic text-muted" id="correct">Correct!</div>
