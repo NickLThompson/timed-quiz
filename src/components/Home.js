@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = ({ setCurrentPage }) => {
+const Home = () => {
 
   return (
     <section className="section" id="start">

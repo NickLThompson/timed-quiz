@@ -20,8 +20,19 @@ const App = () => {
     return (
         <>
             <Component onNext={() => setCurrentPage(currentPage + 1)} />
-            <button onClick={() => setCurrentPage(currentPage + 1)}>Forward</button>
-            <button onClick={() => setCurrentPage(currentPage - 1)}>Back</button>
+            <div className="col text-center">
+
+                <button
+                    href="#home"
+                    type="button"
+                    id="startQuiz"
+                    onClick={() => setCurrentPage(currentPage + 1)}>Forward</button>
+                <button
+                    href="#home"
+                    type="button"
+                    id="startQuiz"
+                    onClick={() => setCurrentPage(currentPage - 1)}>Back</button>
+            </div>
 
         </>
 
