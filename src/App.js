@@ -9,36 +9,23 @@ import QuestionFive from './components/QuestionFive';
 import End from "./components/End";
 import HighScores from "./components/HighScores";
 
+const steps = [Home, QuestionOne, End, HighScores];
+
 // this is the home screen before you start the quiz
 const App = () => {
     // default page is Home and we change the page when the start button is clicked
-    const [currentPage, setCurrentPage] = useState("Home");
+    const [currentPage, setCurrentPage] = useState(0);
+    const Component = steps[currentPage];
 
-    // this checks which page it is and returns the proper page
-    const renderPage = () => {
-      switch (currentPage) {
-        case "Home":
-          return <Home />;
-        case "QuestionOne":
-          return <QuestionOne />;
-        case "End":
-          return <End />;
-        case "HighScores":
-          return <HighScores />;
-        default:
-          return <Home />;
-      }
-    }
-
-    // home page
     return (
-        <div>
-            {/* change this to see whichever page until I can get the onClick down correctly*/}
-            <Home/>
-            {/* <Home currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-            {renderPage()} */}
-        </div>
-    );
+        <>
+            <Component onNext={() => setCurrentPage(currentPage + 1)} />
+            <button onClick={() => setCurrentPage(currentPage + 1)}>Forward</button>
+            <button onClick={() => setCurrentPage(currentPage - 1)}>Back</button>
+
+        </>
+
+    )
 }
 
 export default App;

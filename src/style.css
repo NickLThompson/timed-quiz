@@ -25,6 +25,11 @@ body {
   color: rgb(205, 1, 205)
 }
 
+#highScores:hover {
+  background-color: rgb(50, 0, 120);
+  cursor: pointer;
+}
+
 /* start quiz button */
 #startQuiz {
   padding: 7px 20px 9px 20px;

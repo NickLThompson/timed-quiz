@@ -16,7 +16,6 @@ const Home = ({ setCurrentPage }) => {
                 <button
                     href="#home"
                     type="button"
-                    onClick={() => setCurrentPage("QuestionOne")}
                     id="startQuiz">Start Quiz
                 </button>
             </div>
