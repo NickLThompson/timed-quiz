@@ -22,6 +22,13 @@ const App = () => {
             <Component onNext={() => setCurrentPage(currentPage + 1)} />
             <div className="col text-center">
 
+            <button
+                    href="#home"
+                    type="button"
+                    id="startQuizModern"
+                    onClick={() => setCurrentPage(currentPage + 1)}>Start Quiz
+                </button>
+
                 <button
                     href="#home"
                     type="button"
@@ -41,3 +48,4 @@ const App = () => {
 
 export default App;
 
+// todo: make start Quiz button go to the first question + proper formatting

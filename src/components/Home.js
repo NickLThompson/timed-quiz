@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = () => {
+const Home = ({ setCurrentPage, currentPage }) => {
 
   return (
     <section className="section" id="start">
@@ -16,7 +16,8 @@ const Home = () => {
                 <button
                     href="#home"
                     type="button"
-                    id="startQuiz">Start Quiz
+                    id="startQuizOriginal"
+                    onClick={() => setCurrentPage(currentPage + 1)}>Start Quiz
                 </button>
             </div>
         </section>
